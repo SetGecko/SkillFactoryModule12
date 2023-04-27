@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_12.1.4", "Task_12.1.4\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Screencast_12.1", "Screencast_12.1\Screencast_12.1.csproj", "{FAED2B2D-D65A-4B38-B3DC-DAE9D557CC7E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task_12.1.5", "Task_12.1.5", "{2986489A-A810-4731-9B86-707AF8B7F8CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
