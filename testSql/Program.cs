@@ -10,11 +10,14 @@ namespace testSql
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
                 builder.DataSource = "DESKTOP-82VM5QH\\SQLEXPRESS"; //.database.windows.net
-                builder.UserID = "NT Service\\MSSQL$SQLEXPRESS";
+                builder.UserID = "NT Service\\Set Gecko";
                 builder.Password = "123456";
-                builder.IntegratedSecurity = false;
+                builder.IntegratedSecurity = true;
                 builder.TrustServerCertificate = true;
                 builder.InitialCatalog = "Test";
+
+                //var strochka = builder.ToString();
+                //Console.WriteLine(strochka);
 
                 using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
@@ -40,6 +43,7 @@ namespace testSql
             {
                 Console.WriteLine(e.ToString());
             }
+            
             Console.ReadLine();
         }
     }
